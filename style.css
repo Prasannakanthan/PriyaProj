@@ -1,0 +1,702 @@
+.Outerwrapper{
+    height: 8300px;
+    /* width: 1340px; */
+}
+.Header{
+    height: 90px;
+    background-color:hsl(300, 4%, 5%); 
+    /* width: 1340px; */
+}
+.namelogo{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.options{
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 750;
+    font-size: smaller;
+    padding-top: 35px;
+    margin-right: 120px;
+}
+a{
+    text-decoration: none;
+}
+.welcome{
+    background-image:url(image/slides/01.jpg);
+    background-size: cover;
+    height: 680px;
+    /* width: 1340px; */
+}
+.intro{
+    padding-top: 150px;
+    padding-left: 500px;
+}
+.caption{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: inline;
+}
+.bar{
+    width: 115px;
+    height: 24px;
+    background: url(image/slide-separator.png);
+    background-repeat: no-repeat;
+    margin-top: 60px;
+    margin-left: 610px;
+}
+.slogan{
+    color: #ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 30px;
+    letter-spacing: 2px;
+}
+.about{
+    height: 1280px;
+    /* width: 1340px; */
+    background-color:#ffffff;
+}
+.section1{
+    font-family: "Cabin";
+    font-weight: 700;
+    text-align: center;
+    color: #383733;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+h2.section1:before,h2.section1:after{
+    content: url(image/header_decorator.png);
+    color: #D1BC87;
+    margin: 14px;
+    vertical-align: text-bottom;
+}
+.subabout1,.subabout2{
+    font-style: italic;
+    font-family: "cabin";
+    color: #777777;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 4px;
+}
+.subabout2{
+    margin-bottom: 55px;
+}
+.history{
+    color: #c0a756;
+    text-align: center;
+    font-size: 60px;
+    padding-right: 20px;
+    font-family: "Great Vibes", serif;
+}
+.one1{
+    text-align: left;
+    font-family: "cabin",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 32px;
+}
+.four4{
+    text-align: left;
+    font-family: "cabin",sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #777777;
+    line-height: 32px;
+}
+.part1,.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+p.abpar1,p.abpar2{
+    padding-left: 40px;
+    padding-right: 70px;
+    width: 600px;
+}
+p.abpar3,p.abpar4{
+    padding-left:0px;
+    padding-right:0px;
+    width: 600px;
+}
+.img2{
+    height: 350px;
+    width: 500px;
+    margin-left:1px;
+    margin-top: 30px;
+}
+.img1{
+    padding-right: 80px;
+    height: 400px;
+    width: 500px;
+}
+.ornament{
+    content: url(image/ornament.png);
+    padding-left: 270px;
+}
+.timings{
+    background-image: url(image/parllex/opening_hours.jpg);
+    background-position: center;
+    position: absolute;
+    height: 560px;
+    text-align: center;
+    width: 1340px; 
+}
+.timeheading{
+    font-family: "Oswald", sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.openinghours{
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 40px;
+    padding-top: 20px;
+}
+.subheading{
+    color: #B29859;
+    font-size: 22px;
+    font-weight: 3px;
+    margin-bottom: 15px;
+    margin-top: -78px;
+    font-family: "Yellowtail", serif;
+    font-style: italic;
+}
+.timedecoration:before{
+    content: url(image/timetable-decorator.png);
+    padding-left: 100px;
+}
+.timedecoration:after{
+    content: url(image/timetable-decorator2.png);
+    padding-right: 100px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    padding-left: 120px;
+}
+.dayset1,.dayset2{
+    color: #B29859;
+    font-family: "Yellowtail", serif;
+    margin-bottom: 15px;
+    font-weight: 500;
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.t1,.t2{
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 34px;
+    font-style: normal;
+}
+.splitter{
+    content: url(image/column-divider.png);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.dayset1,.t1{
+    padding-left: 300px;
+    padding-right: 20px;
+}
+.dayset2,.t2{
+    padding-left: 20px;
+    padding-right: 300px;
+}
+.num{
+    color: #ffffff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 40px;
+    font-style: normal;
+}
+.bg1{
+    background-image: url(image/menu_left.jpg),url(image/menu_right.jpg);
+    background-repeat: no-repeat;
+    height: 800px;
+    background-position: left,right;
+}
+.mlogo{
+    padding-left: 570px;
+}
+.menu{
+    height: 788px;
+    /* width: 1340px; */
+    background-color: #ffffff;
+    padding-top: 560px;
+}
+.mcontent{
+    padding-top: 70px;
+}
+h3.mheading{
+    text-align: center;
+    color: #887025;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 33px;
+    font-weight: 500;
+    padding-left: 20px;
+}
+.mt {
+    font-family: "Cabin", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    color: #0c0901;
+    text-align: left;
+
+}
+ul{
+    list-style: none;
+ }
+.details{
+    text-transform: none;
+    font-size: 16px;
+    color: #484745;
+    font-weight: 400;
+    display: block;
+    line-height: 1.42857143;
+    margin-bottom: 20px;
+}
+.price{
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 18px;
+    color: #bfa760;
+    float: right;
+    text-align: left;
+}
+.mrow{    
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-top: 40px;
+}
+h3.m1,h3.m2,h3.m3{
+    margin-left: 80px;
+}
+.button{
+
+    border: 2px solid #bfa760;
+    background: transparent;
+    font-size: 18px;
+    margin-bottom: 23px;
+    width: 260px;
+    height: 65px;
+    display: block;
+    margin-left: 530px;
+    margin-top: 50px;
+}
+.buttonname{
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    color: #bfa760;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 16px 10px;
+}
+.gallery{
+    height: 1400px;
+    /* width: 1340px; */
+    background-color: #141313;
+}
+h2.gh{
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 80px;
+}
+h2.gh:before,h2.gh:after{
+    content: url(image/header_decorator.png);
+    margin: 14px;
+    color: #B29859;
+    vertical-align: text-bottom;
+}
+.gsubtitle{
+    display: block;
+    margin-bottom: 45px;
+    max-width: 650px;
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 400;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+    padding-left: 350px;
+}
+.gcontents ul li a{
+    font-family: "Cabin", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.grow{
+    padding-left: 400px;
+}
+.gcontents ul{
+    overflow: hidden;
+}
+.gcontents li{
+    display:inline-block
+}
+.space{
+    padding: 25px;
+}
+.first,.two,.three,.four,.five,.six,.seven,.eight,.nine{
+    height: 320px;
+    float: left;
+    width: 33.30%;
+    text-align: justify;
+    }
+    .igrow1,.igrow2,.igrow3{
+        content: "";
+        display: block;
+        clear: both;
+}
+.reservations{
+    height: 1325px;
+    /* width: 1340px; */
+    background-color:#ffffff;
+}
+.rtitle{
+    font-family: "Cabin";
+    font-weight: 700;
+    text-align: center;
+    color: #383733;
+    text-transform: uppercase;
+    padding-top: 50px
+}
+h2.rtitle:before, h2.rtitle:after{
+    content: url(image/header_decorator.png);
+    color: #D1BC87;
+    margin: 14px;
+    vertical-align: text-bottom;
+}
+.subreserve1,.subreserve2{
+font-style: italic;
+    font-family: "cabin";
+    color: #777777;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    line-height: 4px;
+}
+.subreserve2{
+    margin-bottom: 65px;
+}
+.reservelogo{
+    content: url(image/reservations_logo.png);
+    color: #bfa760;
+    margin-left: 620px;
+}
+.top,.bottom{
+    font-family: "Yellowtail";
+    font-size: 25px;
+    color: #141313;
+    text-align: center;
+    font-weight: 400;
+}
+hr.line1{
+    color: #bfa760;
+    width: 160px;
+    display: inline-block;
+    border-color: #bfa760;
+    border-top: 1px;
+}
+hr.line2{
+    color: #bfa760;
+    width: 200px;
+    display: inline-block;
+    border-color: #bfa760;
+    border-top: 1px;
+    
+}
+h4.middletitle1{
+    padding-left: 390px;
+    font-family: cursive;
+    font-size: 25px;
+    color: #141313;
+    font-weight: 400;
+}
+h4.middletitle2{
+    padding-left: 390px;
+    font-family: cursive;
+    font-size: 25px;
+    color: #141313;
+    font-weight: 400;
+}
+h3.rsubtitle{
+    text-transform: uppercase;
+    color: #444342;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 15px 0px 15px 0px
+}
+.reservtime{
+    font-family: "Cabin", sans-serif;
+    font-weight: 500;
+    color: #7d7a7a;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.phonenum{
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #444342;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin: 15px 0px 15px 0px;
+}
+.column1 p{
+    text-align: left;
+    color: #101010;
+    font-size: 1.2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 550;
+    margin: 20px 0px;
+    padding-left: 140px;
+}
+.column2 p{
+    text-align: left;
+    color: #101010;
+    font-size: 1.2em;
+    font-family: "Cabin", sans-serif;
+    font-weight: 550;
+    margin: 20px 0px;
+    padding-left: 0px;
+}
+.column1 input{
+    margin-left:140px;
+    width: 480px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.column2 input{
+    margin-left:0px;
+    width: 480px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.gettinginput
+{
+    display: flex;
+}
+.column1,.column2{
+    flex:50%;
+    margin: 20px;
+}
+#message{
+    margin-left: 160px;
+    width: 1010px;
+    height: 40px;
+    font-size: 18px;
+    padding-bottom: 130px; 
+}
+.reservbutton{
+    
+    display: block;
+    margin: 0 auto;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+    color: #bfa760;
+    border: 2px solid #bfa760;
+    padding: 15px 10px;
+    margin-top: 50px;
+    background: transparent;
+    height: 70px;
+    width: 350px;
+}
+.ornament2{
+    content: url(image/ornament.png);
+    padding-left: 630px;  
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.testimonials{
+    background-image: url(image/parllex/testimonials.jpg);
+    height: 500px;
+    background-position: center;
+}
+.testlogo{
+    content: url(image/testimonials_logo.png);
+    padding-left: 610px;
+    padding-top: 30px;
+}
+.testtitle{
+    padding-left: 100px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: #bfa760;
+}
+.testtitle span{
+    position: absolute;
+    font-family: monospace;
+    right: 0;
+    font-weight: 700;
+    font-size: 72px;
+    padding-right: 30px;
+}
+.item{
+    font-family: "Cabin", sans-serif;
+    padding-left: 100px;
+    text-align: left;
+    font-weight: 400;
+    color: #e2e9ed;
+    font-size: 25px;
+    line-height: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.author{
+    font-family: "Cabin", sans-serif;
+    font-style: italic;
+    padding-left: 100px;
+    font-size: 20px;
+    color: #bfa760;
+    font-weight: 700;
+    float: left;
+}
+.contact{
+    height: 820px;
+    background-color: #0c0b0b;
+    margin-top: -23px;
+}
+h2.ch{
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 600;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 60px;
+}
+h2.ch:before,h2.ch:after{
+    content: url(image/header_decorator.png);
+    margin: 14px;
+    color: #B29859;
+    vertical-align: text-bottom;
+}
+.csubtitle{
+    display: block;
+    margin-bottom: 45px;
+    max-width: 650px;
+    text-align: center;
+    font-family: "Cabin";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 17px;
+    color: #777777;
+    padding-left: 340px;
+    padding-top: 20px;
+}
+.getintouch
+{
+    display: flex;
+}
+.contactcolumn1,.contactcolumn2{
+    flex:50%;
+    margin: 20px;
+}
+.contactcolumn1 input{
+    margin-left:60px;
+    width: 550px;
+    height: 80px;
+    margin-bottom: 20px;
+    background-color: #2c2a2a;
+    border: #2c2a2a;
+    padding-left: 20px;
+    font-weight: 780;
+    font-size: 15px;
+    color: #2c2a2a;
+}
+.contactcolumn2 input{
+    margin-left:-11px;
+    width: 570px;
+    height: 40px;
+    background-color: #2c2a2a;
+    border: #2c2a2a;
+    padding-bottom: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 780;
+    font-size: 15px;
+    color: #2c2a2a;
+}
+#personname,#emailid{
+    margin-bottom: 51px;
+}
+.connect{
+    display: block;
+    margin: 0 auto;
+    font-family: "Cabin", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 23px;
+    cursor: pointer;
+    color: #fff2c9;
+    background-color: #c1a667;
+    border: 2px solid #c1a667;
+    padding: 15px 10px;
+    margin-top: 50px;
+    height: 70px;
+    width: 210px;
+}
+.footer{
+    background-color: #141313;
+    height: 250px;
+    /* width: 1340px; */
+}
+.icons{
+    color: #ffffff;
+    padding-top: 100px;
+    padding-left: 520px;
+}
+#twitter,#fb,#pin,#gplus{
+     padding-top: 7px;
+     padding-left: 10px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    background-color: #3d3c38;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px; 
+}
+
+
